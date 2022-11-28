@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_global"
+    app:defaultNavHost="true"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.eventplanner.presentation.fragment.EventMainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_event_main">
+        <action
+            android:id="@+id/action_mainFragment_to_newEventFragment"
+            app:destination="@id/newEventFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_detailsEventFragment"
+            app:destination="@id/detailsEventFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newEventFragment"
+        android:name="com.example.eventplanner.presentation.fragment.NewEventFragment"
+        android:label="NewEventFragment"
+        tools:layout="@layout/fragment_new_event">
+        <action
+            android:id="@+id/action_newEventFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsEventFragment"
+        android:name="com.example.eventplanner.presentation.fragment.DetailsEventFragment"
+        android:label="DetailsEventFragment"
+        tools:layout="@layout/fragment_details_event">
+        <action
+            android:id="@+id/action_detailsEventFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimens_0_dp">0dp</dimen>
+    <dimen name="dimens_4_dp">4dp</dimen>
+    <dimen name="dimens_8_dp">8dp</dimen>
+    <dimen name="dimens_16_dp">16dp</dimen>
+    <dimen name="dimens_24_dp">24dp</dimen>
+    <dimen name="dimens_32_dp">32dp</dimen>
+    <dimen name="dimens_48_dp">48dp</dimen>
+
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_width">48dp</dimen>
+
+    <dimen name="weather_image_height">30dp</dimen>
+    <dimen name="weather_image_width">30dp</dimen>
+
+    <!--text size-->
+    <dimen name="large_text_size">20sp</dimen>
+    <dimen name="biggest_text_size">18sp</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+</resources>

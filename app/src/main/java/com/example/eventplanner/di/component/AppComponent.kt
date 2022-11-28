@@ -28,4 +28,5 @@ interface AppComponent {
         fun build(): AppComponent
     }
 
+    val viewModelFactory: ViewModelFactory
 }

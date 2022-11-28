@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabRippleColor">@android:color/transparent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="tabBackground">@color/white</item>
+        <item name="tabSelectedTextColor">@color/dark_blue</item>
+        <item name="tabTextAppearance">@style/MainTabLayoutTextAppearance</item>
+    </style>
+
+    <style name="MainTabLayoutTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+</resources>
